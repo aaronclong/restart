@@ -10,7 +10,7 @@ import 'zone.js/dist/fake-async-test';
 // reference url: http://lathonez.com/2017/ionic-2-unit-testing/
 import { getTestBed, TestBed } from '@angular/core/testing';
 import { BrowserDynamicTestingModule, platformBrowserDynamicTesting } from '@angular/platform-browser-dynamic/testing';
-import { App, 
+import { App,
          Config,
          Form,
          IonicModule,
@@ -18,7 +18,9 @@ import { App,
          DomController,
          MenuController,
          NavController,
-         Platform } from 'ionic-angular';
+         Platform,
+         GestureController,
+        } from 'ionic-angular';
 import { ConfigMock, PlatformMock } from './test-utils/mocks';
 
 /* import {
@@ -64,7 +66,7 @@ export class TestUtils {
         ...components,
       ],
       providers: [
-        App, Form, Keyboard, DomController, MenuController, NavController,
+        App, Form, Keyboard, DomController, MenuController, NavController, GestureController,
         {provide: Platform, useClass: PlatformMock},
         {provide: Config, useClass: ConfigMock},
       ],
