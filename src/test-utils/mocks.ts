@@ -47,13 +47,58 @@ export class ConfigMock {
   }
 }
 
+export class DeepLinkerMock{
+}
+
+export class NavMock {   
+
+  public length(): number {
+    return 1;   }
+
+  public push(): any {
+    return new Promise(function(resolve: Function): void {
+      resolve();
+    });   }
+
+  public getActive(): any {
+    return {
+      'instance': {
+        'model': 'something',
+      },
+    };   }
+
+  public setRoot(): any {
+    return true;   }
+
+  public pop(): any {
+    return new Promise(function(resolve: Function): void {
+      resolve();
+    });   }
+
+  public registerChildNav(): any {
+    return new Promise(function(resolve: Function): void {
+      resolve();
+    });   }
+
+  public unregisterChildNav(): any {
+    return new Promise(function(resolve: Function): void {
+      resolve();
+    });   }
+
+  public popToRoot(): any {
+    return true;   }
+
+  public canGoBack(): any {
+    return true;   } }
+
+
 export class FormMock {
   public register(): any {
     return true;
   }
 }
 
-export class NavMock {
+/*export class NavMock {
 
   public pop(): any {
     return new Promise(function(resolve: Function): void {
@@ -82,7 +127,7 @@ export class NavMock {
   public popToRoot(): any {
     return true;
   }
-}
+} */
 
 export class PlatformMock {
   public ready(): Promise<{String}> {

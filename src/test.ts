@@ -16,12 +16,13 @@ import { App,
          IonicModule,
          Keyboard,
          DomController,
+         DeepLinker,
          MenuController,
          NavController,
          Platform,
          GestureController,
         } from 'ionic-angular';
-import { ConfigMock, PlatformMock } from './test-utils/mocks';
+import { ConfigMock, PlatformMock, NavMock, DeepLinkerMock } from './test-utils/mocks';
 
 /* import {
   BrowserDynamicTestingModule,
@@ -69,6 +70,8 @@ export class TestUtils {
         App, Form, Keyboard, DomController, MenuController, NavController, GestureController,
         {provide: Platform, useClass: PlatformMock},
         {provide: Config, useClass: ConfigMock},
+        {provide: DeepLinker, useClass: DeepLinkerMock},
+        {provide: NavController, useClass: NavMock}
       ],
       imports: [
         IonicModule
