@@ -23,15 +23,19 @@
     <ion-item>
         <ion-label>Preffered-Location</ion-label>
         <ion-select [(ngModel)]="Preffered-Location">
-        <ion-option value="location1">location1</ion-option>
-        <ion-option value="location2">location2</ion-option>
+        <ion-option value="Marshallton">Marshallton</ion-option>
+        <ion-option value="Cedars Church of Christ-Pantry">Cedars Church of Christ-Pantry</ion-option>
+        <ion-option value="Lake Forest High School">Lake Forest High School</ion-option>
+        <ion-option value="Salvation Army Food Closet">Salvation Army Food Closet</ion-option>
         </ion-select>
     </ion-item>
     </ion-list>
     </ion-list>
     <div class="pure-controls">
         <button ion-button full type="submit" class="pure-button pure-button-primary">Start making a difference today!</button>
+        <button ion-button full (click)="goBack()" type="submit" class="pure-button pure-button-primary">Back</button>
     </div>
+    
     
 </div>
 </ion-content>

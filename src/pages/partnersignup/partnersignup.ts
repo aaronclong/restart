@@ -10,5 +10,8 @@ export class PartnerSignUp {
   constructor(public navCtrl: NavController) {
 
   }
+  goBack() {
+    this.navCtrl.pop();
+  }
 
 }

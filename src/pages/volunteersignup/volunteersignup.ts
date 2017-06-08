@@ -10,5 +10,8 @@ export class VolunteerSignUp {
   constructor(public navCtrl: NavController) {
 
   }
+  goBack() {
+    this.navCtrl.pop();
+  }
 
 }
