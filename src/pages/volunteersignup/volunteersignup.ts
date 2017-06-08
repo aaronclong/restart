@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { VolunteerProfile } from '../volunteerprofile/volunteerprofile';
 
 @Component({
   selector: 'page-volunteersignup',
@@ -13,5 +14,6 @@ export class VolunteerSignUp {
   goBack() {
     this.navCtrl.pop();
   }
+
 
 }
