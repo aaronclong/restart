@@ -1,0 +1,40 @@
+    <ion-title>Volunteer Sign up</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <div class="volunterr-sign-up">
+        <p>Please fill out all applicable fields before submitting</p>
+    <ion-list>
+    <ion-item>
+        <ion-label color="dark">Name: </ion-label>
+        <ion-input placeholder=""></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label color="dark">Phone Number: </ion-label>
+        <ion-input placeholder=""></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label color="dark">Email Address: </ion-label>
+        <ion-input placeholder=""></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label color="dark">Address:  </ion-label>
+        <ion-input placeholder=""></ion-input>
+    </ion-item>
+    <ion-list>
+    <ion-item>
+        <ion-label>Preffered-Location</ion-label>
+        <ion-select [(ngModel)]="Preffered-Location">
+        <ion-option value="location1">location1</ion-option>
+        <ion-option value="location2">location2</ion-option>
+        </ion-select>
+    </ion-item>
+    </ion-list>
+    </ion-list>
+    <div class="pure-controls">
+        <button ion-button full type="submit" class="pure-button pure-button-primary">Start making a difference today!</button>
+    </div>
+    
+</div>
+</ion-content>
