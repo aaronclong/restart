@@ -25,7 +25,7 @@
     <ion-list>
     <ion-item>
         <ion-label>Preffered-Location</ion-label>
-        <ion-select [(ngModel)]="Preffered-Location">
+        <ion-select [(ngModel)]="Preferred-Location">
         <ion-option value="Marshallton">Marshallton</ion-option>
         <ion-option value="Cedars Church of Christ-Pantry">Cedars Church of Christ-Pantry</ion-option>
         <ion-option value="Lake Forest High School">Lake Forest High School</ion-option>
@@ -35,7 +35,7 @@
     </ion-list>
     </ion-list>
     <div class="pure-controls">
-        <button ion-button full type="submit" class="pure-button pure-button-primary">Start making a difference today!</button>
+        <button ion-button full (click)="goToVolunteerProfile()" type="submit" class="pure-button pure-button-primary">Start making a difference today!</button>
         <button ion-button full (click)="goBack()" type="submit" class="pure-button pure-button-primary">Back</button>
     </div>
 </div>

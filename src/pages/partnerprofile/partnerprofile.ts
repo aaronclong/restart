@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 @Component({
   selector: 'page-partnerprofile',
@@ -10,8 +11,8 @@ export class PartnerProfile {
   constructor(public navCtrl: NavController) {
 
   }
-  goBack() {
-    this.navCtrl.pop();
+  goToMenu() {
+    this.navCtrl.setRoot(HomePage);
   }
 
 }

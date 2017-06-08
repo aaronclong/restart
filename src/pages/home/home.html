@@ -2,13 +2,25 @@
 
 <div text-center>
 
-    <p>
+    <h1>
       Welcome, The Food Bank Of Delaware thanks you for your support!
-    </p>
+    </h1>
+
+    <ion-list>
+      <ion-item>
+        <ion-input type="text" placeholder="Username"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input type="password" placeholder="Password"></ion-input>
+      </ion-item>
+    </ion-list>
+
 
 <form class="pure-form pure-form-aligned">
     <fieldset>
-        <div class="pure-control-group">
+
+        <!-- <div class="pure-control-group">
             <label for="name">Username</label>
             <input id="name" type="text" placeholder="Username">
         </div>
@@ -16,20 +28,25 @@
         <div class="pure-control-group">
             <label for="password">Password</label>
             <input id="password" type="password" placeholder="Password">
-        </div>
+        </div> -->
 
         <div class="pure-controls">
-            
+
             <button ion-button full type="submit" class="pure-button pure-button-primary">Login</button>
             <button ion-button full (click)="goToPartnerSignUp()"type="submit" class="pure-button pure-button-primary">Register as a Hunger Relief Parter</button>
             <button ion-button full (click)="goToVolunteerSignUp()"type="submit" class="pure-button pure-button-primary">Register as a Volunteer</button>
-            
+
         </div>
+
+        <div padding>
+        <img src="../../assets/img/foodbank-logo.png"/>
+        </div>
+
     </fieldset>
 </form>
 
 </div>
 
 
-  
+
 </ion-content>

@@ -15,5 +15,9 @@ export class VolunteerSignUp {
     this.navCtrl.pop();
   }
 
+  goToVolunteerProfile() {
+    this.navCtrl.push(VolunteerProfile);
+  }
+
 
 }
