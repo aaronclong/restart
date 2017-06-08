@@ -45,14 +45,11 @@ ion-input {
     width: 200px;
 }
 
-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 5px;
+ion-item {
+   list-style: none;
 }
 
-div {
+h1, div{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -62,4 +59,5 @@ div {
 img {
     display: block;
     margin: 0 auto;
+    padding: 30px;
 }
