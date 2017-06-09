@@ -10,7 +10,7 @@ import { PartnerSignUp } from '../partnersignup/partnersignup';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-
+    
   }
   goToVolunteerSignUp(){
     this.navCtrl.push(VolunteerSignUp);

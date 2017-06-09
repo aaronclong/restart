@@ -15,6 +15,12 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+.getstart {
+background-image: url('/assets/img/gray-back.png');
+background-repeat: no-repeat;
+background-size:cover;
+
+}
 .button{
     background-color: #8dc358 ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -61,3 +67,5 @@ img {
     margin: 0 auto;
     padding: 30px;
 }
+
+
