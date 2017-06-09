@@ -7,11 +7,11 @@
     </h1>
 
       <ion-item>
-        <ion-input type="text" placeholder="Username"></ion-input>
+        <ion-input type="text" [(ngModel)] = "Username" placeholder="Username"></ion-input>
       </ion-item>
 
       <ion-item>
-        <ion-input type="password" placeholder="Password"></ion-input>
+        <ion-input type="password" [(ngModel)] = "Password" placeholder="Password"></ion-input>
       </ion-item>
 
 
@@ -30,9 +30,9 @@
 
         <div class="pure-controls">
 
-            <button ion-button full type="submit" class="pure-button pure-button-primary">Login</button>
-            <button ion-button full (click)="goToPartnerSignUp()"type="submit" class="pure-button pure-button-primary">Register as a Hunger Relief Parter</button>
-            <button ion-button full (click)="goToVolunteerSignUp()"type="submit" class="pure-button pure-button-primary">Register as a Volunteer</button>
+            <button ion-button full (click)="attemptLogin()" type="submit" class="pure-button pure-button-primary">Login</button>
+            <button ion-button full (click)="goToPartnerSignUp()" type="submit" class="pure-button pure-button-primary">Register as a Hunger Relief Parter</button>
+            <button ion-button full (click)="goToVolunteerSignUp()" type="submit" class="pure-button pure-button-primary">Register as a Volunteer</button>
 
         </div>
 
