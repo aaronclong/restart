@@ -15,11 +15,6 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-.getstart {
-background-image: url('/assets/img/gray-back.png');
-background-repeat: no-repeat;
-background-size:cover;
-}
 .button{
     background-color: #8dc358 ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,8 +24,8 @@ background-size:cover;
 
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 title {
@@ -58,13 +53,13 @@ h1, div{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     font-weight: 600;
-    padding: 5px;
+    padding: 2px;
 }
 
 img {
     display: block;
     margin: 0 auto;
-    padding: 30px;
+    padding: 10px;
 }
 
 
